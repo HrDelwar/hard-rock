@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Hard Rock Solution - Song Lyric App</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <img src="images/toggler-icon.svg" alt="">
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link " href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <main id="main" class="content-area pt-5">
+            <div class="search-bar col-lg-6 mx-auto pt-5">
+                <h1 class="text-center">Hard Rock Lyric Search</h1>
+                <div class="search-box my-5">
+                    <input id="search-input" type="text" class="form-control" placeholder="Enter your artist song name...">
+                    <button id="search-songs" class="btn  text-white btn-info search-btn">Search</button>
+                </div>
+            </div>
+            <!-- error message-->
+            <h3 id="error-message" class="text-center"></h3>
+            <p id="song-lyrics" class="single-lyrics text-center">
+
+            </p>
+            <!-- songs container -->
+            <div id="songs-container" class="search-result col-md-8 mx-auto py-4">
+
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Script Here -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
